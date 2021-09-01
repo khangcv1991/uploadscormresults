@@ -11,4 +11,5 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->version  = 2012052800;
+$plugin->version  = 2021090100;
+$plugin->component = 'tool_uploadscormresults';

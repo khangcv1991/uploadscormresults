@@ -21,12 +21,14 @@
 define('NO_OUTPUT_BUFFERING', true);
 
 require_once('../../../config.php');
+require_once($CFG->libdir.'/formslib.php');
 require_once($CFG->dirroot.'/lib/adminlib.php');
+require_once($CFG->libdir.'/csvlib.class.php');
 require_once($CFG->dirroot.'/admin/tool/uploadscormresults/locallib.php');
 require_once($CFG->dirroot.'/admin/tool/uploadscormresults/index_form.php');
 require_once($CFG->dirroot.'/lib/tablelib.php');
 // include the completion cron
-require_once($CFG->dirroot.'/completion/cron.php');
+//require_once($CFG->dirroot.'/completion/cron.php');
 // include scorm lib
 require_once($CFG->dirroot.'/mod/scorm/lib.php');
 
